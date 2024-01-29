@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me - Sumukh Soni's Portfolio</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@400;700&display=swap">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background: linear-gradient(to right, #7b68ee, #4b0082);
+            color: #fff; /* Set text color to white for better visibility */
+            min-height: 100vh; /* Set minimum height to 100% of viewport height */
+        }
+
+        header {
+            background: #ffe4e1;
+            padding: 1em;
+            text-align: center;
+            color: #4b0082;
+            font-family: 'Pacifico', cursive;
+        }
+
+        section {
+            max-width: 1200px; /* Increase the maximum width */
+            margin: 0 auto;
+            padding: 2em;
+            background: url('Background.jpg') no-repeat center center fixed; /* Add your background image */
+            background-size: cover;
+            background-color: rgba(255, 204, 203, 0.7); /* Slightly transparent background color */
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            margin-top: 20px;
+            transition: transform 0.3s ease-in-out;
+           
+        }
+
+        section:hover {
+            transform: scale(1.05);
+        }
+
+        h2 {
+            color: #4b0082;
+            font-family: 'Pacifico', cursive;
+        }
+
+        p {
+            line-height: 1.6;
+        }
+
+        /* Styles for floating images */
+        .float-left {
+            float: left;
+            margin-right: 20px;
+            margin-bottom: 20px;
+        }
+
+        .float-right {
+            float: right;
+            margin-left: 20px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>About Me - Sumukh Soni</h1>
+    </header>
+
+    <section>
+        <h2>About Me</h2>
+        <p>Hello! I'm Sumukh Soni, a 19-year-old from Mumbai, currently pursuing a Btech degree in Computer Science Engineering with Specialisation in IOT at VIT Vellore. I am a Space enthusiast and aim to build a career in the Aeronautical Industry.</p>
+        <div>
+        <!-- Your picture with your name -->
+        <img src="Sumukh.jpg" alt="Sumukh Soni" class="float-left" style="width:150px; height: 150px;">
+
+        <!-- Additional pictures from your life/hobbies -->
+        <img src="Trekking.jpg" alt="Trekking" class="float-left" style="width:150px; height: 150px;">
+        <img src="Swimming.jpg" alt="Swimming" class="float-left" style="width:150px; height: 150px;">
+        </div>
+    </section>
+</body>
+</html>
+
+
